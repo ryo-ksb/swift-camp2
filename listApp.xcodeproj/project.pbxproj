@@ -12,6 +12,8 @@
 		B1FD7C36217D7079005D9CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FD7C34217D7079005D9CF6 /* Main.storyboard */; };
 		B1FD7C38217D707B005D9CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FD7C37217D707B005D9CF6 /* Assets.xcassets */; };
 		B1FD7C3B217D707B005D9CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FD7C39217D707B005D9CF6 /* LaunchScreen.storyboard */; };
+		B1FD7C49217F063B005D9CF6 /* listAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD7C48217F063B005D9CF6 /* listAddViewController.swift */; };
+		B1FD7C4B217F0676005D9CF6 /* listViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD7C4A217F0676005D9CF6 /* listViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B1FD7C37217D707B005D9CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1FD7C3A217D707B005D9CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1FD7C3C217D707B005D9CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FD7C48217F063B005D9CF6 /* listAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listAddViewController.swift; sourceTree = "<group>"; };
+		B1FD7C4A217F0676005D9CF6 /* listViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B1FD7C37217D707B005D9CF6 /* Assets.xcassets */,
 				B1FD7C39217D707B005D9CF6 /* LaunchScreen.storyboard */,
 				B1FD7C3C217D707B005D9CF6 /* Info.plist */,
+				B1FD7C48217F063B005D9CF6 /* listAddViewController.swift */,
+				B1FD7C4A217F0676005D9CF6 /* listViewController.swift */,
 			);
 			path = listApp;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				B1FD7C33217D7079005D9CF6 /* ViewController.swift in Sources */,
 				B1FD7C31217D7079005D9CF6 /* AppDelegate.swift in Sources */,
+				B1FD7C4B217F0676005D9CF6 /* listViewController.swift in Sources */,
+				B1FD7C49217F063B005D9CF6 /* listAddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
