@@ -37,12 +37,10 @@ class listViewController: UITableViewController{
         loadView()
         viewDidLoad()
         
-        /*
         //追加画面で入力した内容を取得する
         if UserDefaults.standard.object(forKey: "TodoList") != nil {
             textFieldString = UserDefaults.standard.object(forKey: "TodoList") as! [String]
         }
-        */
     }
     
     // MARK: - Table view data source
